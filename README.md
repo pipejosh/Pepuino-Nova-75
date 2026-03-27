@@ -6,6 +6,7 @@ This is the pepuino75, a 75 percent keyboard, featuring my custom microcontroler
 ![pcb](IMG/render.png) 
 ### SCHEMATIC
 ![schematic](IMG/schematic.png) 
+
 ### PCB
 ![pcb](IMG/pcb.png) 
 ### CASE
