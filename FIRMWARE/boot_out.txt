@@ -1,4 +1,0 @@
-Adafruit CircuitPython 10.1.4 on 2026-03-09; Raspberry Pi Pico with rp2040
-Board ID:raspberry_pi_pico
-UID:E66550A147235C32
-boot.py output:
