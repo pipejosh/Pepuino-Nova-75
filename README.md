@@ -22,7 +22,7 @@ This is the pepuino75, a 75 percent keyboard, featuring my custom microcontroler
 
 ### Firmware
 
-This keyboard uses kmk feel free to use the oficial documentation in order to flash and install kmk in you microcontroller the firmware folder has the code.py which is what you should copy and paste into your board 
+This keyboard uses kmk feel free to use the official (https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md) documentation in order to flash and install kmk in you microcontroller the firmware folder has the code.py which is what you should copy and paste into your board 
 
 ## KIT Components
 
