@@ -22807,7 +22807,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(SW72-Pad1)")
+			(net "COL13")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "ef4b27ad-283e-42f6-9468-a1d99b90bd17")
@@ -28496,220 +28496,6 @@
 		)
 		(embedded_fonts no)
 		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizers:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "fbfdd02f-0195-456a-b0b8-b40ab0d12b23")
-		(at 240.4745 -66.8338)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "S5"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "3573c39b-9f9a-45bb-892f-5223a63fafff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "6a8212a4-7052-484e-9b53-b91a96c143b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5466002a-7296-4ca3-b5b7-d03d682cc2db")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15afbf7c-72af-4994-be3c-d7cc4ab8d0db")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/72ea7558-9937-45f1-913d-c268a81a8d86")
-		(sheetname "/")
-		(sheetfile "PepuinoNova75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "08b8db1c-5bcb-44e9-aa8b-ed0818254958")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "dd7fdcb7-60ba-41af-844b-d94cd2734f47")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2fb86946-e386-48f3-83d6-3902133ce335")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "57ca831e-de5e-453f-8314-8820727660c1")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8d4b9307-9e8e-46de-a7c1-a2f08a1bb921")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "42ff43c7-97da-44ab-9884-cdc13be6ec02")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8f077256-09de-4f4d-8f31-68210ca28b6c")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "7bb5097b-33c5-4e3a-98bf-b791a5ff9ad9")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "9bb285f0-f2ab-4d3b-8e68-3d9370b87f3d")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "461821d2-deb2-4269-9fbc-93e5d974fe0e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "b3c7635a-dda8-4c2b-a635-9b13b14caa16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c723b66b-060f-4bee-a331-1fbb78c29b6c")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "deb7bb20-e85e-44f1-b3c3-897b98a17bc4")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "6b56428b-ca13-41bb-b3c1-4ee588abb16f")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "cb1011c9-393b-4744-9660-9ac7d5c2eb3f")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -61426,36 +61212,12 @@
 		(uuid "22467f49-9b4a-40f5-9df3-aabb58974f7b")
 	)
 	(segment
-		(start 248.6398 -54.9648)
-		(end 243.84 -50.165)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "COL12")
-		(uuid "3c5a0967-1c9c-4147-9506-7fda7580bbcd")
-	)
-	(segment
 		(start 225.3681 -125.4185)
 		(end 225.3681 -132.4668)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "COL12")
 		(uuid "433ab69b-87db-4758-bf58-97d2b4b69837")
-	)
-	(segment
-		(start 251.1492 -88.0996)
-		(end 251.1492 -75.7668)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "COL12")
-		(uuid "450bdf89-a205-4ca7-8364-2ece1d605bb1")
-	)
-	(segment
-		(start 251.1492 -75.7668)
-		(end 248.6398 -73.2574)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "COL12")
-		(uuid "532ed6fd-30cc-4362-bb90-6e6120d5788c")
 	)
 	(segment
 		(start -13.34375 -114.75625)
@@ -61490,12 +61252,12 @@
 		(uuid "95e2e770-9549-4766-aa03-9be6089bff0a")
 	)
 	(segment
-		(start 248.6398 -73.2574)
-		(end 248.6398 -54.9648)
+		(start 238.3673 -88.265)
+		(end 236.6963 -89.936)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "COL12")
-		(uuid "9b7ef538-67d2-4988-a5cd-7ad8cdfddf27")
+		(uuid "b2b2c91e-1552-4167-8512-3a5e3ca0b319")
 	)
 	(segment
 		(start 243.84 -50.165)
@@ -61520,6 +61282,14 @@
 		(layer "B.Cu")
 		(net "COL12")
 		(uuid "dbffc138-d44f-4cd0-8f45-bef005d79b19")
+	)
+	(segment
+		(start 250.9838 -88.265)
+		(end 238.3673 -88.265)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "COL12")
+		(uuid "e4543103-63ca-42f7-b1ae-41d24e693b15")
 	)
 	(segment
 		(start 225.3681 -115.0393)
@@ -61991,19 +61761,11 @@
 	)
 	(segment
 		(start 255.3782 -88.8281)
-		(end 257.3565 -86.8498)
+		(end 257.232838 -86.973463)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "COL13")
 		(uuid "01d5c533-50b6-437d-bf84-9c14369a6aea")
-	)
-	(segment
-		(start 257.3565 -55.6985)
-		(end 262.89 -50.165)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "COL13")
-		(uuid "19902bdb-6f6c-42b6-85f4-b4fe695850e5")
 	)
 	(segment
 		(start 251.46 -138.43)
@@ -62012,14 +61774,6 @@
 		(layer "B.Cu")
 		(net "COL13")
 		(uuid "1be7cc30-1ce9-4a5c-b7c0-5c6034842a60")
-	)
-	(segment
-		(start 257.3565 -86.8498)
-		(end 257.3565 -55.6985)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "COL13")
-		(uuid "376c7b81-8a9d-4e67-8522-36817f70aad1")
 	)
 	(segment
 		(start 258.1275 -107.315)
@@ -62038,12 +61792,36 @@
 		(uuid "5bbc51c0-b9fb-408f-81e0-c2e90d2ad6a9")
 	)
 	(segment
+		(start 257.232838 -74.872162)
+		(end 262.89 -69.215)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "COL13")
+		(uuid "644f0ef9-eb0f-4998-8ade-88e6d74450bf")
+	)
+	(segment
 		(start 48.888766 -111.514625)
 		(end 50.005441 -112.6313)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "COL13")
 		(uuid "6cabe5c6-377f-4742-85f2-c4d7b241aa10")
+	)
+	(segment
+		(start 262.89 -69.215)
+		(end 262.89 -50.165)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "COL13")
+		(uuid "78972a63-168a-4b6f-a861-650ed1360a1a")
+	)
+	(segment
+		(start 257.232838 -86.973463)
+		(end 257.3565 -86.8498)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "COL13")
+		(uuid "7aa05b54-ef14-4ab1-8acc-433b9045e25f")
 	)
 	(segment
 		(start 252.4125 -126.8973)
@@ -62060,6 +61838,14 @@
 		(layer "B.Cu")
 		(net "COL13")
 		(uuid "8ca3ef89-1ff4-4044-b32a-f4422ae35aca")
+	)
+	(segment
+		(start 257.232838 -86.973463)
+		(end 257.232838 -74.872162)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "COL13")
+		(uuid "99c8a5d4-4349-4dcf-8f3d-4789d7433801")
 	)
 	(segment
 		(start 255.3782 -107.315)

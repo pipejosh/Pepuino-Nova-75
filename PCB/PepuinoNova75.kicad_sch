@@ -2046,6 +2046,12 @@
 		(uuid "22bdedf7-6066-4334-82fc-2a51098a9714")
 	)
 	(junction
+		(at 242.57 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b8a947-3785-4bf9-9f8d-9262270555b3")
+	)
+	(junction
 		(at 34.29 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2556,6 +2562,12 @@
 		(uuid "c34cb906-47cc-4261-afe5-f2e56f45c9f1")
 	)
 	(junction
+		(at 232.41 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4a00a24-11d4-4c70-9df4-bfa8cec68576")
+	)
+	(junction
 		(at 247.65 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2650,12 +2662,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbbd91e6-6ab0-4dd5-b614-a9f03127dbc9")
-	)
-	(junction
-		(at 243.84 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbc446e0-faf5-4d7e-b512-96ac952762b5")
 	)
 	(junction
 		(at 186.69 128.27)
@@ -3133,6 +3139,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 143.51) (xy 232.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a9c03d-d6be-4d05-9905-038af579d32b")
+	)
+	(wire
+		(pts
 			(xy 247.65 82.55) (xy 252.73 82.55)
 		)
 		(stroke
@@ -3333,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 113.03) (xy 232.41 160.02)
+			(xy 232.41 113.03) (xy 232.41 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3470,6 +3486,16 @@
 			(type default)
 		)
 		(uuid "5d5115fc-1d05-4392-ae3b-5da4a721abff")
+	)
+	(wire
+		(pts
+			(xy 242.57 148.59) (xy 257.81 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e17350a-06d3-44fe-bde0-f3e2d93fff4f")
 	)
 	(wire
 		(pts
@@ -4003,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 148.59) (xy 243.84 148.59)
+			(xy 227.33 148.59) (xy 242.57 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4380,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "ee92696b-0f87-44c1-ada8-fd29590ef800")
-	)
-	(wire
-		(pts
-			(xy 243.84 148.59) (xy 257.81 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9b8726-356d-4013-9c68-feffa9f22671")
 	)
 	(wire
 		(pts
@@ -12763,82 +12779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 62.23 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72ea7558-9937-45f1-913d-c268a81a8d86")
-		(property "Reference" "S5"
-			(at 68.58 45.5929 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 68.58 48.1329 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizers:Stabilizer_MX_2.00u"
-			(at 62.23 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 62.23 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PepuinoNova75"
-				(path "/ce63fa7b-8e8c-4088-a358-a5b5a66994c2"
-					(reference "S5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 242.57 100.33 0)
 		(unit 1)
@@ -14878,7 +14818,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 243.84 146.05 0)
+		(at 242.57 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14889,7 +14829,7 @@
 		(fields_autoplaced yes)
 		(uuid "a37f307f-957f-4a57-9e0a-06fd742134c7")
 		(property "Reference" "D72"
-			(at 243.69 144.984 0)
+			(at 242.42 144.984 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14902,7 +14842,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 246.38 146.0499 0)
+			(at 245.11 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14913,7 +14853,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 243.84 146.05 90)
+			(at 242.57 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14924,7 +14864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 146.05 90)
+			(at 242.57 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14935,7 +14875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 146.05 90)
+			(at 246.38 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19864,7 +19804,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Switch")
-		(at 238.76 143.51 0)
+		(at 237.49 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19875,7 +19815,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffe0574d-32ae-4fee-9f00-eeacc4103687")
 		(property "Reference" "SW72"
-			(at 238.76 135.89 0)
+			(at 237.49 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19885,7 +19825,7 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at 238.76 138.43 0)
+			(at 237.49 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19895,7 +19835,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 238.76 138.43 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19906,7 +19846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 138.43 0)
+			(at 237.49 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19917,7 +19857,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 238.76 143.51 0)
+			(at 237.49 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
