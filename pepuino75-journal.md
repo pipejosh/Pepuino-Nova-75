@@ -161,3 +161,26 @@ The up arrow didnt work and after looking at the firware first I noticed there w
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMyNjQ0LCJwdXIiOiJibG9iX2lkIn19--6b3cc3265f0816cf71a9eddee09a7fe44b7b2d94/image.png)
   
 
+# 4/9/2026 - Cut thee acrylic piece for the display + update repo!  
+
+_Time spent: 1.5h_  
+
+Even so the keb was done, I still wanted it to look likee the acrylic pieces the corne has. So I exported the sketch of the part in fusion as a dxf, load it into illustrator, put it in a usb stick, open it in retina engrave and cutted the part
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0MjAwLCJwdXIiOiJibG9iX2lkIn19--8153c9a28a20bb553d21aacd0d4b5a2b6de4e091/image.png)
+
+
+Cutting the acrylic was fun! although it started to light on fire since the protective film of the acrylic was still on 
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0MTk2LCJwdXIiOiJibG9iX2lkIn19--b519506ddcb25ac7a270ab027f9d4c5ef9c2a09c/image.png)
+
+(And the proteective film got a bit burned too hehe)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTM0MTk3LCJwdXIiOiJibG9iX2lkIn19--a59b405d839cb558ca81b10eb9c8176c03783ea4/image.png)
+
+And now you can choose your own adventures as my chemistry teacher says, either 3d print that piece for a NOT CLEAR orrrrrrrr lase cut the piece of acrylic using the dxf attached, the file is in mm just in case anyone strugles with the scales
+
+Note: Nowwwww I can finally seee the beautiful silkscreen of the pepuino nano v1
+
+  
+
