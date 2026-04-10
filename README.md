@@ -3,7 +3,14 @@
 This is the pepuino75, a 75 percent keyboard, featuring my custom microcontroler, the pepuinoNanoV1 (https://github.com/pipejosh/pepuinoNano-devBoard) althought it is also compatible with a raspberry pi pico!. This keyboard also features a rotary encoder, design to make it as compact as possible, without lossing any of its features!
 
 ### Keyboard!
+
+(With 3d printed display)
+
 ![build](IMG/keyboardBuild.png)
+
+(With acrylic display)
+
+![build](IMG/keyboardBuild2.png)
 
 ### RENDER
 ![pcb](IMG/render.png) 
